@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+   
+   /*  font-family: 'Castoro Titling', cursive; */
+    margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg,#2980b9, #8e44ad);
+  height: 100vh;
+  overflow: hidden;
+  }
+  .center{
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 469px;
+  height: 382px;
+  background:transparent;
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
+  position: fixed; 
+    top: 15%; 
+    left: 30%;
+
+  }
+  h1{
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: center;
+    text-align:center;
+  }
+  p{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+
+  }
+  .center a{
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+    font-size: 26px;
+    background-color: #ecdef2;
+    color: #8e44ad;
+  }
+
+  .center a:hover{
+    color: #efefef;
+  }
+  .nav {
+    height: 50px;
+    width: 100%;
+    background:transparent;
+    position: relative;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 20px 20px 20px 20px;
+    
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+  }
+  
+  a {
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    color: #efefef;
+  }
+  
+  a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  
+</style>
+    <title>Electric Bill</title>
+</head>
+<body>
+    <div class="bg">
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            Electricty Billing System
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nav-links">
+          <a href="" target="_blank">About Us</a>
+        </div>
+      </div>
+      <div class="center">
+        <h1>Ellectric Billing System</h1>
+        <p>Pay your bills with just a click</p>
+        <a href="Login" target="_blank">Login</a>
+      </div>
+    </div>
+</body>
+</html>
